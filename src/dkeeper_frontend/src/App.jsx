@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Note from "./components/Note.jsx";
 import CreateArea from "./components/CreateArea.jsx";
+import {dkeeper} from "../"
 
 function App() {
   const [notes, setNotes] = useState([]);
